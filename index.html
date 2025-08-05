@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyaguta Homepage Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <div class="logo-text">V</div>
+                    </div>
+                    <span class="logo-name">Vyaguta</span>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="navigation">
+                    <a href="#" class="nav-link">People</a>
+                    <a href="#" class="nav-link">Teams</a>
+                    <a href="#" class="nav-link">Attendance</a>
+                    <a href="#" class="nav-link">JUMP</a>
+                    <a href="#" class="nav-link">Honor</a>
+                    <a href="#" class="nav-link">OKR</a>
+                </nav>
+
+                <!-- Right side actions and user -->
+                <div class="header-actions">
+                    <!-- Action buttons -->
+                    <div class="action-buttons">
+                        <div class="action-btn email-btn">
+                            <div class="icon">📧</div>
+                        </div>
+                        <div class="action-btn link-btn">
+                            <div class="icon">🔗</div>
+                        </div>
+                        <div class="action-btn notification-btn">
+                            <div class="icon">📢</div>
+                            <div class="notification-badge">4</div>
+                        </div>
+                    </div>
+
+                    <!-- User profile -->
+                    <div class="user-profile">
+                        <div class="profile-avatar">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face" alt="Profile">
+                        </div>
+                        <div class="profile-info">
+                            <span class="profile-name">Pratik Shrestha</span>
+                            <svg class="dropdown-icon" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17 9.17C16.8126 8.98375 16.5592 8.87921 16.295 8.87921C16.0308 8.87921 15.7774 8.98375 15.59 9.17L12 12.71L8.46 9.17C8.27264 8.98375 8.01919 8.87921 7.755 8.87921C7.49081 8.87921 7.23736 8.98375 7.05 9.17L17 9.17Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                <!-- First Row - Allocation, Events, Notice -->
+                <div class="first-row">
+                    <!-- My Allocation -->
+                    <div class="allocation-card">
+                        <!-- Header -->
+                        <div class="card-header">
+                            <h2 class="card-title">My Allocation</h2>
+                            <div class="toggle-buttons">
+                                <div class="toggle-btn active">Current</div>
+                                <div class="toggle-btn">Booking</div>
+                            </div>
+                        </div>
+
+                        <!-- Content -->
+                        <div class="allocation-content">
+                            <!-- Pie Chart -->
+                            <div class="pie-chart">
+                                <svg viewBox="0 0 102 102">
+                                    <circle cx="51" cy="51" r="47" fill="#C4C4C4" stroke="none"/>
+                                    <circle cx="51" cy="51" r="47" fill="none" stroke="#2ECC71" stroke-width="10" stroke-dasharray="75 200" stroke-dashoffset="0" transform="rotate(-90 51 51)"/>
+                                    <circle cx="51" cy="51" r="47" fill="none" stroke="#F2994A" stroke-width="10" stroke-dasharray="50 200" stroke-dashoffset="-75" transform="rotate(-90 51 51)"/>
+                                    <circle cx="51" cy="51" r="47" fill="none" stroke="#102B7B" stroke-width="10" stroke-dasharray="75 200" stroke-dashoffset="-125" transform="rotate(-90 51 51)"/>
+                                </svg>
+                                <div class="chart-center">
+                                    <div class="hours-number">40</div>
+                                    <div class="hours-label">hrs/week</div>
+                                </div>
+                            </div>
+
+                            <!-- Project Info -->
+                            <div class="project-info">
+                                <div class="project-item">
+                                    <div class="project-dot green"></div>
+                                    <div class="project-details">
+                                        <div class="project-name">Vyaguta</div>
+                                        <div class="project-date">Start date: Oct 24, 2019</div>
+                                        <div class="project-date">Potential end date: Mar 24, 2024</div>
+                                        <div class="project-role">Senior Product Designer · 20 hrs/week · Learning</div>
+                                        <div class="project-appraisers">
+                                            Appraisers:
+                                            <div class="appraisers-avatars">
+                                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b586?w=20&h=20&fit=crop&crop=face" alt="Appraiser">
+                                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=20&h=20&fit=crop&crop=face" alt="Appraiser">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-item">
+                                    <div class="project-dot blue"></div>
+                                    <div class="project-details">
+                                        <div class="project-name">Delphi: Automated Synthesis</div>
+                                        <div class="project-date">Start date: Oct 24, 2019</div>
+                                        <div class="project-date">End date: Feb 21, 2024</div>
+                                        <div class="project-role">Team Lead · 20 hrs/week</div>
+                                        <div class="project-appraisers">
+                                            Appraisers:
+                                            <div class="appraisers-avatars">
+                                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=20&h=20&fit=crop&crop=face" alt="Appraiser">
+                                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=20&h=20&fit=crop&crop=face" alt="Appraiser">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Stats -->
+                        <div class="allocation-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">38h 30m</div>
+                                <div class="stat-label">Logged this week</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <div class="stat-number orange">24</div>
+                                <div class="stat-label">Worklogs pending</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number red">214</div>
+                                <div class="stat-label">Attendance Missed</div>
+                            </div>
+                        </div>
+
+                        <!-- Attendance Info -->
+                        <div class="attendance-info">
+                            <div class="attendance-title">Last 30 days history of your attendance</div>
+                            <div class="attendance-content">
+                                <div class="attendance-card">
+                                    <div class="attendance-icon">
+                                        <div class="attendance-dot"></div>
+                                    </div>
+                                    <div class="attendance-details">
+                                        <div class="attendance-time">WFO 9:15 am</div>
+                                        <div class="attendance-description">median clock-in time</div>
+                                    </div>
+                                </div>
+                                <div class="attendance-stats">
+                                    <div class="attendance-stat">
+                                        <div class="attendance-stat-number">10</div>
+                                        <div class="attendance-stat-label">Remote</div>
+                                    </div>
+                                    <div class="attendance-stat">
+                                        <div class="attendance-stat-number">5</div>
+                                        <div class="attendance-stat-label">WFO</div>
+                                    </div>
+                                    <div class="attendance-stat">
+                                        <div class="attendance-stat-number">2</div>
+                                        <div class="attendance-stat-label">Leaves</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Events -->
+                    <div class="events-card">
+                        <div class="card-header">
+                            <h2 class="card-title">Upcoming Events & Holidays</h2>
+                        </div>
+                        <div class="events-list">
+                            <div class="event-item">
+                                <div class="event-date active-event">
+                                    <div class="event-day">Wed</div>
+                                    <div class="event-number">08</div>
+                                    <div class="event-month">Jun</div>
+                                </div>
+                                <div class="event-divider"></div>
+                                <div class="event-details">
+                                    <div class="event-title">Talking to the Developers from Google</div>
+                                    <div class="event-badge green">Event</div>
+                                </div>
+                            </div>
+
+                            <div class="event-item">
+                                <div class="event-date">
+                                    <div class="event-day">Thu</div>
+                                    <div class="event-number">09</div>
+                                    <div class="event-month">Jun</div>
+                                </div>
+                                <div class="event-divider"></div>
+                                <div class="event-details">
+                                    <div class="event-title">Leaptalk</div>
+                                    <div class="event-badge blue">Event</div>
+                                </div>
+                            </div>
+
+                            <div class="event-item">
+                                <div class="event-date">
+                                    <div class="event-day">Fri</div>
+                                    <div class="event-number">10</div>
+                                    <div class="event-month">Jun</div>
+                                </div>
+                                <div class="event-divider"></div>
+                                <div class="event-details">
+                                    <div class="event-title gray">Maha Shivaratiri</div>
+                                    <div class="event-badge gray">Holiday</div>
+                                </div>
+                            </div>
+
+                            <div class="event-item">
+                                <div class="event-date">
+                                    <div class="event-day">Mon</div>
+                                    <div class="event-number">13</div>
+                                    <div class="event-month">Jun</div>
+                                </div>
+                                <div class="event-divider"></div>
+                                <div class="event-details">
+                                    <div class="event-title">Design Disco</div>
+                                    <div class="event-badge blue">Event</div>
+                                </div>
+                            </div>
+
+                            <div class="event-item">
+                                <div class="event-date">
+                                    <div class="event-day">Mon</div>
+                                    <div class="event-number">01</div>
+                                    <div class="event-month">May</div>
+                                </div>
+                                <div class="event-divider"></div>
+                                <div class="event-details">
+                                    <div class="event-title">International Labor Day</div>
+                                    <div class="event-badge blue">Event</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scrollbar"></div>
+                    </div>
+
+                    <!-- Notice Board -->
+                    <div class="notice-card">
+                        <div class="notice-header">
+                            <div class="notice-title-section">
+                                <div class="notice-icon">📢</div>
+                                <h2 class="notice-title">Notice Board</h2>
+                            </div>
+                            <div class="notice-view-all">View all</div>
+                        </div>
+
+                        <div class="notice-content">
+                            <div class="notice-item">
+                                <div class="notice-item-title">Important notice about Dashain Vacation</div>
+                                <div class="notice-item-text">The Dashain vacation will be for 3 days, if you want to take leave before or after vacation ...</div>
+                            </div>
+
+                            <div class="notice-item">
+                                <div class="notice-item-title">Important notice about Dashain Vacation</div>
+                                <div class="notice-item-text">The Dashain vacation will be for 3 days, if you want to take leave before or after vacation ...</div>
+                            </div>
+
+                            <div class="notice-item">
+                                <div class="notice-item-title">Does evaluation affect your salary?</div>
+                                <div class="notice-item-text">Know about how evaluation plays important role in your promotion and your salary.</div>
+                            </div>
+
+                            <div class="notice-item">
+                                <div class="notice-item-title">Does evaluation affect your salary?</div>
+                                <div class="notice-item-text">Know about how evaluation plays important role in your promotion and your salary.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- My Team Section -->
+                <div class="team-section">
+                    <div class="team-header">
+                        <div class="team-info">
+                            <h2 class="team-title">My Team</h2>
+                            <span class="team-count">24 members</span>
+                        </div>
+                        <div class="team-actions">
+                            <div class="team-date">
+                                <span>Today</span>
+                                <div class="date-dot"></div>
+                                <span>Fri, Aug 01</span>
+                            </div>
+                            <div class="team-badge warning">
+                                <svg class="team-badge-icon" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M6.86 2.57333L1.21333 12C1.09691 12.2016 1.03531 12.4302 1.03466 12.663C1.03401 12.8958 1.09433 13.1248 1.20962 13.327C1.32491 13.5293 1.49115 13.6978 1.69181 13.8159C1.89246 13.934 2.12053 13.9974 2.35333 14H13.6467C13.8795 13.9974 14.1075 13.934 14.3082 13.8159C14.5088 13.6978 14.6751 13.5293 14.7904 13.327C14.9057 13.1248 14.966 12.8958 14.9653 12.663C14.9647 12.4302 14.9031 12.2016 14.7867 12L9.14 2.57333C9.02115 2.3774 8.85381 2.21541 8.65413 2.10299C8.45445 1.99057 8.22916 1.9315 8 1.9315C7.77084 1.9315 7.54555 1.99057 7.34587 2.10299C7.14619 2.21541 6.97885 2.3774 6.86 2.57333V2.57333Z"/>
+                                </svg>
+                                <span>8</span>
+                            </div>
+                            <div class="team-badge gray">
+                                <svg class="team-badge-icon" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M7.99994 2.16796C7.71682 2.16798 7.44321 2.27031 7.23041 2.45703L3.23041 5.95703V5.958C3.10596 6.06733 3.00583 6.20166 2.93744 6.35253C2.86906 6.50339 2.83315 6.66737 2.83294 6.833V12.667C2.83303 12.9761 2.95625 13.2725 3.17474 13.4912C3.39352 13.71 3.69054 13.833 3.99994 13.833H5.83294V10C5.83295 9.60226 5.99121 9.22073 6.2724 8.93945C6.55361 8.65824 6.93526 8.5001 7.33294 8.5H8.66693C9.06466 8.50007 9.44623 8.65821 9.72748 8.93945C10.0087 9.22074 10.1669 9.60223 10.1669 10V13.833H11.9999C12.3094 13.833 12.6063 13.71 12.8251 13.4912C13.0437 13.2725 13.1668 12.9762 13.1669 12.667V6.833L13.1601 6.70898C13.1468 6.58598 13.1137 6.46569 13.0624 6.35253C12.9941 6.20183 12.8947 6.06727 12.7704 5.958L12.7695 5.95703L8.76947 2.45703C8.55666 2.27034 8.28305 2.16796 7.99994 2.16796ZM7.33294 8.833C7.0238 8.83311 6.7274 8.95629 6.50873 9.1748C6.28993 9.39359 6.16693 9.69058 6.16693 10V13.833H9.83294V10C9.83294 9.69058 9.70994 9.39359 9.49115 9.1748C9.27245 8.9563 8.97609 8.83307 8.66693 8.833H7.33294ZM2.49994 6.83593C2.49826 6.62291 2.54166 6.41161 2.62787 6.21679C2.71407 6.02203 2.84118 5.84804 2.99994 5.70605L2.99896 5.70507L6.99603 2.20312L6.99994 2.19921C7.27493 1.95327 7.63101 1.81739 7.99994 1.81738C8.36886 1.81738 8.72494 1.95329 8.99994 2.19921L9.00384 2.20312L12.9999 5.70507V5.70605C13.1581 5.84753 13.2848 6.02091 13.371 6.21484C13.4572 6.40874 13.5009 6.61887 13.4999 6.83105V12.667C13.4999 13.0647 13.3417 13.4463 13.0605 13.7275C12.7792 14.0087 12.3977 14.167 11.9999 14.167H3.99994C3.6022 14.167 3.22067 14.0087 2.93939 13.7275C2.65816 13.4463 2.50002 13.0647 2.49994 12.667V6.83593Z"/>
+                                </svg>
+                                <div class="team-badge-number">4</div>
+                            </div>
+                            <div class="team-badge gray">
+                                <svg class="team-badge-icon" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M3.33333 1.83333H12.6663C12.7105 1.83333 12.7532 1.85091 12.7845 1.88216C12.8158 1.91342 12.8333 1.95612 12.8333 2.00033V13.8333H14.0003C14.0443 13.8334 14.0864 13.8511 14.1175 13.8822C14.1488 13.9134 14.1663 13.9561 14.1663 14.0003C14.1663 14.0444 14.1487 14.0863 14.1175 14.1175C14.0863 14.1487 14.0444 14.1663 14.0003 14.1663H2.00033C1.95612 14.1663 1.91342 14.1488 1.88216 14.1175C1.85108 14.0863 1.83342 14.0443 1.83333 14.0003C1.83333 13.9561 1.85091 13.9134 1.88216 13.8822C1.91342 13.8509 1.95612 13.8333 2.00033 13.8333H3.16634V2.00033C3.16634 1.9562 3.18401 1.9134 3.21517 1.88216C3.24643 1.85091 3.28913 1.83333 3.33333 1.83333ZM3.50033 13.8333H6.50033V10.0003C6.50033 9.95612 6.5179 9.91342 6.54915 9.88216C6.58032 9.85108 6.62233 9.83342 6.66634 9.83333H9.33333C9.37754 9.83333 9.42024 9.85091 9.4515 9.88216C9.48265 9.9134 9.50033 9.9562 9.50033 10.0003V13.8333H12.5003V2.16634H3.50033V13.8333ZM6.83333 13.8333H9.16634V10.1663H6.83333V13.8333ZM6.00033 7.16634H6.66634C6.71047 7.16634 6.75326 7.18401 6.78451 7.21517C6.81576 7.24643 6.83333 7.28913 6.83333 7.33333C6.83333 7.37754 6.81576 7.42024 6.78451 7.4515C6.75326 7.48265 6.71047 7.50033 6.66634 7.50033H6.00033C5.9562 7.50033 5.9134 7.48265 5.88216 7.4515C5.85091 7.42024 5.83333 7.37754 5.83333 7.33333C5.83333 7.28913 5.85091 7.24643 5.88216 7.21517C5.9134 7.18401 5.9562 7.16634 6.00033 7.16634ZM9.33333 7.16634H10.0003C10.0443 7.16643 10.0864 7.18419 10.1175 7.21517C10.1488 7.24643 10.1663 7.28913 10.1663 7.33333C10.1663 7.37754 10.1488 7.42024 10.1175 7.4515C10.0864 7.48247 10.0443 7.50024 10.0003 7.50033H9.33333C9.28913 7.50033 9.24643 7.48275 9.21517 7.4515C9.18391 7.42024 9.16634 7.37754 9.16634 7.33333C9.16634 7.28913 9.18391 7.24643 9.21517 7.21517C9.24643 7.18391 9.28913 7.16634 9.33333 7.16634ZM6.00033 4.50033H6.66634C6.71054 4.50033 6.75325 4.5179 6.78451 4.54915C6.81558 4.58032 6.83325 4.62233 6.83333 4.66634C6.83333 4.71054 6.81576 4.75325 6.78451 4.78451C6.75325 4.81576 6.71054 4.83333 6.66634 4.83333H6.00033C5.95612 4.83333 5.91342 4.81576 5.88216 4.78451C5.85091 4.75325 5.83333 4.71054 5.83333 4.66634C5.83342 4.62233 5.85108 4.58032 5.88216 4.54915C5.91342 4.5179 5.95612 4.50033 6.00033 4.50033ZM9.33333 4.50033H10.0003C10.0444 4.50041 10.0863 4.51797 10.1175 4.54915C10.1487 4.58033 10.1663 4.62226 10.1663 4.66634C10.1663 4.71054 10.1488 4.75325 10.1175 4.78451C10.0863 4.81558 10.0443 4.83325 10.0003 4.83333H9.33333C9.28913 4.83333 9.24643 4.81576 9.21517 4.78451C9.18401 4.75326 9.16634 4.71047 9.16634 4.66634C9.16643 4.62241 9.18419 4.5803 9.21517 4.54915C9.24643 4.5179 9.28913 4.50033 9.33333 4.50033Z"/>
+                                </svg>
+                                <div class="team-badge-number">2</div>
+                            </div>
+                            <div class="team-badge gray">
+                                <svg class="team-badge-icon" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M11.333 0.666992C11.5098 0.666992 11.6797 0.73728 11.8047 0.862305C11.9295 0.987237 11.9999 1.15639 12 1.33301V2H12.667C13.1973 2.00009 13.7061 2.21094 14.0811 2.58594C14.456 2.96099 14.667 3.46964 14.667 4V13.333C14.667 13.8633 14.4559 14.372 14.0811 14.7471C13.7061 15.1221 13.1973 15.3329 12.667 15.333H3.33301C2.80269 15.3329 2.29394 15.1221 1.91895 14.7471C1.54408 14.372 1.33301 13.8633 1.33301 13.333V4C1.33301 3.46964 1.54397 2.96099 1.91895 2.58594C2.29394 2.21094 2.80269 2.00009 3.33301 2H4V1.33301C4.00009 1.15639 4.07047 0.987237 4.19531 0.862305C4.32034 0.73728 4.49018 0.666992 4.66699 0.666992C4.84369 0.667078 5.01275 0.737357 5.1377 0.862305C5.26264 0.987252 5.33292 1.15631 5.33301 1.33301V2H10.667V1.33301C10.6671 1.15631 10.7374 0.987252 10.8623 0.862305C10.9873 0.737357 11.1563 0.667078 11.333 0.666992ZM2.66699 13.333C2.66699 13.5098 2.73728 13.6797 2.8623 13.8047C2.98724 13.9295 3.15639 13.9999 3.33301 14H12.667C12.8436 13.9999 13.0128 13.9295 13.1377 13.8047C13.2627 13.6797 13.333 13.5098 13.333 13.333V7.33301H2.66699V13.333ZM8.77734 8.92285C9.05086 8.64089 9.49405 8.6409 9.76758 8.92285C10.0411 9.20508 10.0411 9.66309 9.76758 9.94531L8.99023 10.7471L9.89551 11.6807C10.1691 11.9629 10.1691 12.4209 9.89551 12.7031C9.62196 12.9849 9.17872 12.9851 8.90527 12.7031L8 11.7686L7.09473 12.7031C6.82115 12.9852 6.37705 12.9853 6.10352 12.7031C5.83005 12.4209 5.83012 11.9629 6.10352 11.6807L7.00977 10.7471L6.23242 9.94531C5.95885 9.66309 5.95885 9.20508 6.23242 8.92285C6.50596 8.64091 6.94915 8.64086 7.22266 8.92285L8 9.72461L8.77734 8.92285ZM3.33301 3.33301C3.15647 3.33309 2.98722 3.40358 2.8623 3.52832C2.73728 3.65334 2.66699 3.82319 2.66699 4V6H13.333V4C13.333 3.82319 13.2627 3.65334 13.1377 3.52832C13.0128 3.40358 12.8435 3.33309 12.667 3.33301H12V4C12 4.17681 11.9297 4.34666 11.8047 4.47168C11.6797 4.5966 11.5097 4.66699 11.333 4.66699C11.1565 4.66691 10.9872 4.59642 10.8623 4.47168C10.7373 4.34666 10.667 4.17681 10.667 4V3.33301H5.33301V4C5.33301 4.17681 5.26272 4.34666 5.1377 4.47168C5.01278 4.59642 4.84353 4.66691 4.66699 4.66699C4.49026 4.66699 4.32032 4.5966 4.19531 4.47168C4.07029 4.34666 4 4.17681 4 4V3.33301H3.33301Z"/>
+                                </svg>
+                                <div class="team-badge-number">1</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Table Header -->
+                    <div class="team-table-header">
+                        <div class="team-table-row">
+                            <div class="team-col-name">
+                                <span>Name</span>
+                                <svg class="sort-icon" fill="currentColor" viewBox="0 0 5 5">
+                                    <path d="M0 0H5L0 5V0Z"/>
+                                </svg>
+                            </div>
+                            <div class="team-col-attendance">Attendance</div>
+                            <div class="team-col-role">I am their</div>
+                            <div class="team-col-allocations">Allocations</div>
+                            <div class="team-col-leaves">Planned Leaves</div>
+                            <div class="team-col-pending">Pending/Missing</div>
+                        </div>
+                    </div>
+
+                    <!-- Team Members -->
+                    <div class="team-members">
+                        <!-- Team Member 1 -->
+                        <div class="team-member">
+                            <div class="member-name">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b586?w=20&h=20&fit=crop&crop=face" alt="Team member">
+                                <div class="member-info">
+                                    <div class="member-title">Harnoop Gaire</div>
+                                    <div class="member-role">Software Engineer</div>
+                                </div>
+                            </div>
+                            <div class="member-attendance">
+                                <div class="attendance-status office">🏢</div>
+                            </div>
+                            <div class="member-relation">TM</div>
+                            <div class="member-allocations">
+                                <span class="allocation-hours">40h</span>
+                                <div class="allocation-divider"></div>
+                                <span class="allocation-projects">Vyaguta, Persimmon, Product Design</span>
+                            </div>
+                            <div class="member-leaves">-</div>
+                            <div class="member-pending">-</div>
+                        </div>
+
+                        <!-- Team Member 2 -->
+                        <div class="team-member">
+                            <div class="member-name">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=20&h=20&fit=crop&crop=face" alt="Team member">
+                                <div class="member-info">
+                                    <div class="member-title">Hekshith Giri</div>
+                                    <div class="member-role">Software Engineer</div>
+                                </div>
+                            </div>
+                            <div class="member-attendance">
+                                <div class="attendance-status office">🏢</div>
+                            </div>
+                            <div class="member-relation">TM</div>
+                            <div class="member-allocations">
+                                <span class="allocation-hours">40h</span>
+                                <div class="allocation-divider"></div>
+                                <span class="allocation-projects">Vyaguta, Persimmon, Product Design</span>
+                            </div>
+                            <div class="member-leaves">
+                                <div class="leave-badge">
+                                    <span>1</span>
+                                    <svg class="leave-icon" fill="currentColor" viewBox="0 0 14 14">
+                                        <path d="M9.91688 0.583442C10.0715 0.583528 10.2197 0.645021 10.329 0.75434C10.4383 0.86369 10.4998 1.01184 10.4999 1.16645V1.75043H11.0829C11.5468 1.75043 11.9921 1.93422 12.3202 2.26215C12.6484 2.59034 12.8329 3.03631 12.8329 3.50043V11.6664C12.8329 12.1306 12.6484 12.5756 12.3202 12.9038C11.992 13.2319 11.547 13.4164 11.0829 13.4164H2.91688C2.45279 13.4164 2.00776 13.2319 1.67958 12.9038C1.35139 12.5756 1.16688 12.1306 1.16688 11.6664V3.50043C1.16688 3.03631 1.35139 2.59034 1.67958 2.26215C2.00773 1.93422 2.45295 1.75043 2.91688 1.75043H3.49989V1.16645C3.49993 1.01184 3.56148 0.86369 3.67079 0.75434C3.78011 0.645021 3.92831 0.583528 4.0829 0.583442C4.23761 0.583442 4.38659 0.644944 4.49599 0.75434C4.60519 0.863675 4.66684 1.01191 4.66688 1.16645V1.75043H9.3329V1.16645C9.33294 1.01191 9.39459 0.863675 9.5038 0.75434C9.61319 0.644944 9.76217 0.583442 9.91688 0.583442ZM2.3329 11.6664C2.3329 11.8212 2.3944 11.9701 2.5038 12.0795C2.61319 12.1889 2.76221 12.2504 2.91688 12.2504H11.0829C11.2376 12.2504 11.3866 12.1889 11.496 12.0795C11.6054 11.9701 11.6669 11.8212 11.6669 11.6664V6.41645H2.3329V11.6664ZM7.67958 7.80805C7.91895 7.5611 8.30739 7.5611 8.54677 7.80805C8.78592 8.05497 8.78596 8.45471 8.54677 8.70161L7.86708 9.40375L8.65907 10.2202C8.89839 10.4671 8.89828 10.8677 8.65907 11.1147C8.4197 11.3616 8.03126 11.3616 7.79188 11.1147L6.99989 10.2973L6.2079 11.1147C5.96852 11.3616 5.58009 11.3616 5.34071 11.1147C5.10168 10.8678 5.10176 10.468 5.34071 10.2211L6.1327 9.40375L5.45302 8.70161C5.21389 8.45473 5.21395 8.05496 5.45302 7.80805C5.69239 7.5611 6.08083 7.5611 6.3202 7.80805L6.99989 8.50922L7.67958 7.80805ZM2.91688 2.91645C2.76217 2.91645 2.61319 2.97795 2.5038 3.08735C2.39445 3.19674 2.3329 3.34576 2.3329 3.50043V5.25043H11.6669V3.50043C11.6669 3.34576 11.6053 3.19674 11.496 3.08735C11.3866 2.97795 11.2376 2.91645 11.0829 2.91645H10.4999V3.50043C10.4998 3.65497 10.4383 3.80326 10.329 3.91254C10.2197 4.02181 10.0714 4.08336 9.91688 4.08344C9.76217 4.08344 9.61319 4.02194 9.5038 3.91254C9.39457 3.80327 9.33303 3.65493 9.3329 3.50043V2.91645H4.66688V3.50043C4.66675 3.65493 4.60522 3.80327 4.49599 3.91254C4.38659 4.02194 4.23761 4.08344 4.0829 4.08344C3.92835 4.08336 3.7801 4.02181 3.67079 3.91254C3.56151 3.80326 3.50002 3.65497 3.49989 3.50043V2.91645H2.91688Z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="member-pending">-</div>
+                        </div>
+
+                        <!-- Team Member 3 -->
+                        <div class="team-member">
+                            <div class="member-name">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=20&h=20&fit=crop&crop=face" alt="Team member">
+                                <div class="member-info">
+                                    <div class="member-title">Soneeya Karki</div>
+                                    <div class="member-role">Software Engineer</div>
+                                </div>
+                            </div>
+                            <div class="member-attendance">
+                                <div class="attendance-status home">🏠</div>
+                            </div>
+                            <div class="member-relation">TM</div>
+                            <div class="member-allocations">
+                                <span class="allocation-hours">40h</span>
+                                <div class="allocation-divider"></div>
+                                <span class="allocation-projects">Vyaguta, Persimmon, Product Design</span>
+                            </div>
+                            <div class="member-leaves">-</div>
+                            <div class="member-pending">-</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- My Worklog Section -->
+                <div class="worklog-section">
+                    <!-- Header -->
+                    <div class="worklog-header">
+                        <div class="worklog-title-section">
+                            <svg class="worklog-icon" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M14 8H15C15.2652 8 15.5196 7.89464 15.7071 7.70711C15.8946 7.51957 16 7.26522 16 7C16 6.73478 15.8946 6.48043 15.7071 6.29289C15.5196 6.10536 15.2652 6 15 6H14C13.7348 6 13.4804 6.10536 13.2929 6.29289C13.1054 6.48043 13 6.73478 13 7C13 7.26522 13.1054 7.51957 13.2929 7.70711C13.4804 7.89464 13.7348 8 14 8V8ZM14 12H15C15.2652 12 15.5196 11.8946 15.7071 11.7071C15.8946 11.5196 16 11.2652 16 11C16 10.7348 15.8946 10.4804 15.7071 10.2929C15.5196 10.1054 15.2652 10 15 10H14C13.7348 10 13.4804 10.1054 13.2929 10.2929C13.1054 10.4804 13 10.7348 13 11C13 11.2652 13.1054 11.5196 13.2929 11.7071C13.4804 11.8946 13.7348 12 14 12V12ZM9 8H10C10.2652 8 10.5196 7.89464 10.7071 7.70711C10.8946 7.51957 11 7.26522 11 7C11 6.73478 10.8946 6.48043 10.7071 6.29289C10.5196 6.10536 10.2652 6 10 6H9C8.73478 6 8.48043 6.10536 8.29289 6.29289C8.10536 6.48043 8 6.73478 8 7C8 7.26522 8.10536 7.51957 8.29289 7.70711C8.48043 7.89464 8.73478 8 9 8V8ZM9 12H10C10.2652 12 10.5196 11.8946 10.7071 11.7071C10.8946 11.5196 11 11.2652 11 11C11 10.7348 10.8946 10.4804 10.7071 10.2929C10.5196 10.1054 10.2652 10 10 10H9C8.73478 10 8.48043 10.1054 8.29289 10.2929C8.10536 10.4804 8 10.7348 8 11C8 11.2652 8.10536 11.5196 8.29289 11.7071C8.48043 11.8946 8.73478 12 9 12V12ZM21 20H20V3C20 2.73478 19.8946 2.48043 19.7071 2.29289C19.5196 2.10536 19.2652 2 19 2H5C4.73478 2 4.48043 2.10536 4.29289 2.29289C4.10536 2.48043 4 2.73478 4 3V20H3C2.73478 20 2.48043 20.1054 2.29289 20.2929C2.10536 20.4804 2 20.7348 2 21C2 21.2652 2.10536 21.5196 2.29289 21.7071C2.48043 21.8946 2.73478 22 3 22H21C21.2652 22 21.5196 21.8946 21.7071 21.7071C21.8946 21.5196 22 21.2652 22 21C22 20.7348 21.8946 20.4804 21.7071 20.2929C21.5196 20.1054 21.2652 20 21 20ZM13 20H11V16H13V20ZM18 20H15V15C15 14.7348 14.8946 14.4804 14.7071 14.2929C14.5196 14.1054 14.2652 14 14 14H10C9.73478 14 9.48043 14.1054 9.29289 14.2929C9.10536 14.4804 9 14.7348 9 15V20H6V4H18V20Z"/>
+                            </svg>
+                            <h2 class="worklog-title">My Worklog</h2>
+                        </div>
+                        <div class="worklog-date">Friday, 12 August, 2022</div>
+                    </div>
+
+                    <!-- Timesheet Header -->
+                    <div class="timesheet-header">
+                        <div class="timesheet-columns">
+                            <div class="timesheet-col-project">Project/Area/Guild/Pods</div>
+                            <div class="timesheet-col-task">Task</div>
+                            <div class="timesheet-col-log">Log</div>
+                            <div class="timesheet-col-time">Time <span class="time-total">(0h 0m)</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Timesheet Form -->
+                    <div class="timesheet-form">
+                        <!-- First Row -->
+                        <div class="timesheet-row">
+                            <select class="timesheet-select-project">
+                                <option>Vyaguta</option>
+                            </select>
+                            <select class="timesheet-select-task">
+                                <option>Meetings</option>
+                            </select>
+                            <textarea class="timesheet-textarea" placeholder="Sync-up with Abhash dai and Erica.">Sync-up with Abhash dai and Erica.</textarea>
+                            <div class="timesheet-actions">
+                                <div class="time-display">1h 0m</div>
+                                <button class="action-button delete">×</button>
+                                <button class="action-button refresh">↻</button>
+                            </div>
+                        </div>
+
+                        <!-- Second Row (Placeholder) -->
+                        <div class="timesheet-row placeholder">
+                            <select class="timesheet-select-project">
+                                <option>Phill</option>
+                            </select>
+                            <select class="timesheet-select-task">
+                                <option>Select Tasks</option>
+                            </select>
+                            <textarea class="timesheet-textarea disabled" placeholder="Add details here"></textarea>
+                            <div class="timesheet-actions">
+                                <div class="time-display disabled">0h 0m</div>
+                                <button class="action-button delete">×</button>
+                                <button class="action-button refresh hidden">↻</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="worklog-footer">
+                        <div class="footer-actions">
+                            <button class="footer-button secondary">Save as Draft</button>
+                            <button class="footer-button primary">
+                                <svg class="submit-icon" fill="none" stroke="currentColor" viewBox="0 0 16 16">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.6667 1.33333L7.33333 8.66667M14.6667 1.33333L10 14.6667L7.33333 8.66667M14.6667 1.33333L1.33333 6L7.33333 8.66667"/>
+                                </svg>
+                                <span>Submit</span>
+                            </button>
+                        </div>
+                        <button class="footer-button danger">Cancel Request</button>
+                        <div class="total-duration">
+                            <div class="total-label">Total Duration:</div>
+                            <div class="total-time">0h 0m</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Report Bug</a>
+                    <a href="#" class="footer-link">Give Feedback</a>
+                    <a href="#" class="footer-link">Release notes</a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Floating Action Buttons -->
+        <div class="fab-container">
+            <!-- Worklog FAB -->
+            <div class="fab-icon worklog-fab">
+                <svg class="fab-svg" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M51.6856 38.1557L49.5503 36.0204C49.4683 35.9377 49.3707 35.8721 49.2632 35.8273C49.1557 35.7825 49.0404 35.7594 48.9239 35.7594C48.8074 35.7594 48.6921 35.7825 48.5845 35.8273C48.477 35.8721 48.3794 35.9377 48.2974 36.0204L45.1386 39.1793C45.0568 39.2617 44.9921 39.3595 44.9482 39.467C44.9043 39.5745 44.882 39.6896 44.8827 39.8057V41.941C44.8827 42.175 44.9757 42.3995 45.1411 42.565C45.3066 42.7304 45.531 42.8234 45.765 42.8234H47.9003C48.0165 42.8241 48.1316 42.8018 48.2391 42.7579C48.3466 42.714 48.4444 42.6493 48.5268 42.5675L51.6856 39.4087C51.7683 39.3267 51.834 39.2291 51.8788 39.1215C51.9236 39.014 51.9466 38.8987 51.9466 38.7822C51.9466 38.6657 51.9236 38.5504 51.8788 38.4429C51.834 38.3354 51.7683 38.2378 51.6856 38.1557V38.1557ZM47.5298 41.0587H46.6474V40.1763L48.9239 37.8999L49.8062 38.7822L47.5298 41.0587ZM42.2356 41.0587H38.7062C38.4722 41.0587 38.2478 40.9657 38.0823 40.8002C37.9168 40.6348 37.8239 40.4103 37.8239 40.1763V27.8234C37.8239 27.5894 37.9168 27.3649 38.0823 27.1995C38.2478 27.034 38.4722 26.941 38.7062 26.941H43.118V29.5881C43.118 30.2901 43.3969 30.9634 43.8933 31.4598C44.3897 31.9563 45.063 32.2352 45.765 32.2352H48.4121V33.1175C48.4121 33.3515 48.5051 33.5759 48.6705 33.7414C48.836 33.9069 49.0604 33.9999 49.2945 33.9999C49.5285 33.9999 49.7529 33.9069 49.9184 33.7414C50.0839 33.5759 50.1768 33.3515 50.1768 33.1175V31.3528C50.1768 31.3528 50.1768 31.3528 50.1768 31.2999C50.1676 31.2188 50.1499 31.1389 50.1239 31.0616V30.9822C50.0814 30.8915 50.0249 30.8081 49.9562 30.7352L44.6621 25.441C44.5892 25.3724 44.5058 25.3158 44.415 25.2734C44.3887 25.2696 44.362 25.2696 44.3356 25.2734L44.0533 25.1763H38.7062C38.0042 25.1763 37.3309 25.4552 36.8345 25.9516C36.3381 26.4481 36.0592 27.1213 36.0592 27.8234V40.1763C36.0592 40.8784 36.3381 41.5517 36.8345 42.0481C37.3309 42.5445 38.0042 42.8234 38.7062 42.8234H42.2356C42.4697 42.8234 42.6941 42.7304 42.8596 42.565C43.025 42.3995 43.118 42.175 43.118 41.941C43.118 41.707 43.025 41.4826 42.8596 41.3171C42.6941 41.1516 42.4697 41.0587 42.2356 41.0587ZM44.8827 28.1852L47.168 30.4704H45.765C45.531 30.4704 45.3066 30.3775 45.1411 30.212C44.9757 30.0465 44.8827 29.8221 44.8827 29.5881V28.1852ZM40.4709 35.7646H45.765C45.9991 35.7646 46.2235 35.6716 46.389 35.5061C46.5544 35.3407 46.6474 35.1162 46.6474 34.8822C46.6474 34.6482 46.5544 34.4238 46.389 34.2583C46.2235 34.0928 45.9991 33.9999 45.765 33.9999H40.4709C40.2369 33.9999 40.0125 34.0928 39.847 34.2583C39.6815 34.4238 39.5886 34.6482 39.5886 34.8822C39.5886 35.1162 39.6815 35.3407 39.847 35.5061C40.0125 35.6716 40.2369 35.7646 40.4709 35.7646ZM40.4709 32.2352H41.3533C41.5873 32.2352 41.8117 32.1422 41.9772 31.9767C42.1427 31.8112 42.2356 31.5868 42.2356 31.3528C42.2356 31.1188 42.1427 30.8944 41.9772 30.7289C41.8117 30.5634 41.5873 30.4704 41.3533 30.4704H40.4709C40.2369 30.4704 40.0125 30.5634 39.847 30.7289C39.6815 30.8944 39.5886 31.1188 39.5886 31.3528C39.5886 31.5868 39.6815 31.8112 39.847 31.9767C40.0125 32.1422 40.2369 32.2352 40.4709 32.2352ZM42.2356 37.5293H40.4709C40.2369 37.5293 40.0125 37.6222 39.847 37.7877C39.6815 37.9532 39.5886 38.1776 39.5886 38.4116C39.5886 38.6456 39.6815 38.8701 39.847 39.0355C40.0125 39.201 40.2369 39.294 40.4709 39.294H42.2356C42.4697 39.294 42.6941 39.201 42.8596 39.0355C43.025 38.8701 43.118 38.6456 43.118 38.4116C43.118 38.1776 43.025 37.9532 42.8596 37.7877C42.6941 37.6222 42.4697 37.5293 42.2356 37.5293Z"/>
+                </svg>
+            </div>
+
+            <!-- Request remote work FAB -->
+            <div class="remote-work-fab">
+                <span class="remote-work-text">Request remote work</span>
+                <div class="fab-icon remote-work-icon">
+                    <svg class="remote-work-svg" fill="none" stroke="currentColor" viewBox="0 0 18 18">
+                        <rect x="16.4252" y="11.4766" width="14.8506" height="2.02539" rx="1.125" stroke="#2196F3" stroke-width="1.35"/>
+                        <rect x="20.7002" y="12.6992" width="10.2002" height="3.69922" rx="1.125" stroke="#2196F3" stroke-width="1.35"/>
+                        <path d="M7.19989 9.00137L10.7999 5.40137M10.7999 5.40137V8.10121M10.7999 5.40137H8.10005" stroke="#2196F3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Working remotely FAB -->
+            <div class="fab-icon working-remotely-fab">
+                <svg class="fab-svg" fill="none" stroke="currentColor" viewBox="0 0 22 18">
+                    <rect x="17.9999" y="11.8" width="14.4" height="7.39844" rx="1.8" stroke="#B3B3B3" stroke-width="1.8"/>
+                    <rect x="3.59985" y="3.4" width="12.0001" height="8.39844" rx="1.8" stroke="#B3B3B3" stroke-width="1.8"/>
+                    <path d="M10.8004 9.40547H10.8068M9.00076 7.70873C9.47811 7.25882 10.1255 7.00607 10.8004 7.00607C11.4754 7.00607 12.1228 7.25882 12.6001 7.70873M7.20044 6.01139C7.67319 5.56566 8.23443 5.21209 8.85212 4.97086C9.46981 4.72963 10.1319 4.60547 10.8004 4.60547C11.469 4.60547 12.1311 4.72963 12.7488 4.97086C13.3664 5.21209 13.9277 5.56566 14.4004 6.01139" stroke="#B3B3B3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+            <!-- WFO FAB -->
+            <div class="fab-icon wfo-fab">
+                <svg class="fab-svg" fill="currentColor" viewBox="0 0 22 22">
+                    <path d="M12.3529 7.05882H13.2353C13.4693 7.05882 13.6937 6.96586 13.8592 6.80039C14.0247 6.63491 14.1176 6.41049 14.1176 6.17647C14.1176 5.94246 14.0247 5.71803 13.8592 5.55255C13.6937 5.38708 13.4693 5.29412 13.2353 5.29412H12.3529C12.1189 5.29412 11.8945 5.38708 11.729 5.55255C11.5636 5.71803 11.4706 5.94246 11.4706 6.17647C11.4706 6.41049 11.5636 6.63491 11.729 6.80039C11.8945 6.96586 12.1189 7.05882 12.3529 7.05882V7.05882ZM12.3529 10.5882H13.2353C13.4693 10.5882 13.6937 10.4953 13.8592 10.3298C14.0247 10.1643 14.1176 9.9399 14.1176 9.70588C14.1176 9.47187 14.0247 9.24744 13.8592 9.08196C13.6937 8.91649 13.4693 8.82353 13.2353 8.82353H12.3529C12.1189 8.82353 11.8945 8.91649 11.729 9.08196C11.5636 9.24744 11.4706 9.47187 11.4706 9.70588C11.4706 9.9399 11.5636 10.1643 11.729 10.3298C11.8945 10.4953 12.1189 10.5882 12.3529 10.5882V10.5882ZM7.94118 7.05882H8.82353C9.05754 7.05882 9.28197 6.96586 9.44745 6.80039C9.61292 6.63491 9.70588 6.41049 9.70588 6.17647C9.70588 5.94246 9.61292 5.71803 9.44745 5.55255C9.28197 5.38708 9.05754 5.29412 8.82353 5.29412H7.94118C7.70716 5.29412 7.48273 5.38708 7.31726 5.55255C7.15179 5.71803 7.05882 5.94246 7.05882 6.17647C7.05882 6.41049 7.15179 6.63491 7.31726 6.80039C7.48273 6.96586 7.70716 7.05882 7.94118 7.05882V7.05882ZM7.94118 10.5882H8.82353C9.05754 10.5882 9.28197 10.4953 9.44745 10.3298C9.61292 10.1643 9.70588 9.9399 9.70588 9.70588C9.70588 9.47187 9.61292 9.24744 9.44745 9.08196C9.28197 8.91649 9.05754 8.82353 8.82353 8.82353H7.94118C7.70716 8.82353 7.48273 8.91649 7.31726 9.08196C7.15179 9.24744 7.05882 9.47187 7.05882 9.70588C7.05882 9.9399 7.15179 10.1643 7.31726 10.3298C7.48273 10.4953 7.70716 10.5882 7.94118 10.5882V10.5882ZM18.5294 17.6471H17.6471V2.64706C17.6471 2.41304 17.5541 2.18861 17.3886 2.02314C17.2232 1.85767 16.9987 1.76471 16.7647 1.76471H4.41176C4.17775 1.76471 3.95332 1.85767 3.78785 2.02314C3.62237 2.18861 3.52941 2.41304 3.52941 2.64706V17.6471H2.64706C2.41304 17.6471 2.18861 17.74 2.02314 17.9055C1.85767 18.071 1.76471 18.2954 1.76471 18.5294C1.76471 18.7634 1.85767 18.9879 2.02314 19.1533C2.18861 19.3188 2.41304 19.4118 2.64706 19.4118H18.5294C18.7634 19.4118 18.9879 19.3188 19.1533 19.1533C19.3188 18.9879 19.4118 18.7634 19.4118 18.5294C19.4118 18.2954 19.3188 18.071 19.1533 17.9055C18.9879 17.74 18.7634 17.6471 18.5294 17.6471ZM11.4706 17.6471H9.70588V14.1176H11.4706V17.6471ZM15.8824 17.6471H13.2353V13.2353C13.2353 13.0013 13.1423 12.7768 12.9769 12.6114C12.8114 12.4459 12.587 12.3529 12.3529 12.3529H8.82353C8.58951 12.3529 8.36509 12.4459 8.19961 12.6114C8.03414 12.7768 7.94118 13.0013 7.94118 13.2353V17.6471H5.29412V3.52941H15.8824V17.6471Z"/>
+                </svg>
+            </div>
+
+            <!-- Leave FAB -->
+            <div class="fab-icon leave-fab">
+                <svg class="fab-svg" fill="currentColor" viewBox="0 0 22 22">
+                    <path d="M15 0.882812C15.234 0.882813 15.4586 0.97517 15.624 1.14062C15.7895 1.30608 15.8828 1.53065 15.8828 1.76465V2.64746H16.7646C17.4667 2.64746 18.1403 2.92643 18.6367 3.42285C19.1329 3.9192 19.4121 4.59214 19.4121 5.29395V17.6475C19.412 18.3492 19.1329 19.0223 18.6367 19.5186C18.1403 20.015 17.4667 20.2939 16.7646 20.2939H4.41211C3.71007 20.2939 3.03646 20.015 2.54004 19.5186C2.04379 19.0222 1.76476 18.3493 1.76465 17.6475V5.29395C1.76469 4.59207 2.0438 3.91921 2.54004 3.42285C3.03646 2.92643 3.71007 2.64746 4.41211 2.64746H5.29395V1.76465C5.29396 1.53065 5.38727 1.30608 5.55273 1.14062C5.71819 0.975259 5.94282 0.882813 6.17676 0.882812C6.41067 0.882889 6.63538 0.975219 6.80078 1.14062C6.96617 1.30607 7.05858 1.53071 7.05859 1.76465V2.64746H14.1172V1.76465C14.1172 1.53065 14.2105 1.30608 14.376 1.14062C14.5414 0.97517 14.766 0.882813 15 0.882812ZM3.5293 17.6475C3.5294 17.8813 3.62278 18.1051 3.78809 18.2705C3.95356 18.436 4.17809 18.5293 4.41211 18.5293H16.7646C16.9987 18.5293 17.2232 18.436 17.3887 18.2705C17.5539 18.1052 17.6474 17.8812 17.6475 17.6475V9.70605H3.5293V17.6475ZM11.6172 11.8096C11.9792 11.4365 12.5657 11.4365 12.9277 11.8096C13.2898 12.1831 13.2897 12.7886 12.9277 13.1621L11.8994 14.2236L13.0977 15.46C13.4596 15.8335 13.4597 16.439 13.0977 16.8125C12.7356 17.186 12.1482 17.186 11.7861 16.8125L10.5879 15.5762L9.38965 16.8125C9.02761 17.1858 8.44115 17.1858 8.0791 16.8125C7.71702 16.439 7.71702 15.8335 8.0791 15.46L9.27734 14.2236L8.24805 13.1621C7.88636 12.7886 7.88612 12.183 8.24805 11.8096C8.61007 11.4361 9.19748 11.4362 9.55957 11.8096L10.5879 12.8711L11.6172 11.8096ZM4.41211 4.41211C4.17822 4.41211 3.95353 4.50461 3.78809 4.66992C3.62265 4.83535 3.52934 5.05999 3.5293 5.29395V7.94141H17.6475V5.29395C17.6474 5.05999 17.5541 4.83535 17.3887 4.66992C17.2232 4.50452 16.9986 4.41211 16.7646 4.41211H15.8828V5.29395C15.8828 5.52792 15.7894 5.7525 15.624 5.91797C15.4586 6.08344 15.234 6.17676 15 6.17676C14.766 6.17676 14.5414 6.08344 14.376 5.91797C14.2106 5.7525 14.1172 5.52792 14.1172 5.29395V4.41211H7.05859V5.29395C7.05859 5.52785 6.96611 5.75252 6.80078 5.91797C6.63538 6.08337 6.41067 6.17668 6.17676 6.17676C5.94277 6.17676 5.7182 6.08341 5.55273 5.91797C5.38726 5.7525 5.29395 5.52796 5.29395 5.29395V4.41211H4.41211Z"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Tooltip -->
+        <div class="tooltip" id="tooltip">
+            Task not recurred
+        </div>
+    </div>
+</body>
+</html>
